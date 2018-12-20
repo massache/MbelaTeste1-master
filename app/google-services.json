@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "582473386457",
+    "firebase_url": "https://mbelateste1.firebaseio.com",
+    "project_id": "mbelateste1",
+    "storage_bucket": "mbelateste1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582473386457:android:96083f9191cd1818",
+        "android_client_info": {
+          "package_name": "com.example.angelo.mbelateste1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582473386457-0h80g3k0ogu8bmuc4rmgguuj615k7pkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.angelo.mbelateste1",
+            "certificate_hash": "7701be2b281057f42069c09366ba421609281c90"
+          }
+        },
+        {
+          "client_id": "582473386457-gish1iv8i4b32aj3kst7uga6a1pienfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPQHIvV9shP0BcBr4BtPOXt2BCS7WCk3c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582473386457-gish1iv8i4b32aj3kst7uga6a1pienfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

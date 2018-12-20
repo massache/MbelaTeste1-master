@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angelo.mbelateste1.Registro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!-- AQUI VAI FICAR O LOGO DA CENA -->
+
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="28dp"
+            android:padding="16dp"
+            android:src="@drawable/logo12" />
+
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Nome"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#050404" />
+
+
+        <EditText
+            android:id="@+id/apelido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Apelido"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#0b0a0a" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#100f0f" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#0a0808" />
+
+        <EditText
+            android:id="@+id/confirmarPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Confirmar Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="#0d0c0c" />
+
+        <Button
+            android:id="@+id/bSubmit"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="246dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="24dp"
+            android:layout_weight="0.15"
+            android:background="@drawable/design_botao_login"
+            android:clickable="true"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Submeter"
+            android:textColor="#3a4e8e" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

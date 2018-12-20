@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/group_profile"
+        android:title="Sobre mim"
+        >
+        <menu>
+            <item
+                android:id="@+id/id_home_menu_drawer_item"
+                android:title="Perfil"
+                android:checkable="true"
+
+                >
+
+            </item>
+
+
+            <item
+                android:id="@+id/favoritas_item"
+                android:title="Viagens"
+                android:checkable="true"
+
+
+                >
+
+            </item>
+
+            <item
+                android:id="@+id/historico_item"
+                android:checkable="true"
+                android:title="Meus lugares "
+
+                >
+
+
+
+            </item>
+
+        </menu>
+    </item>
+    <item android:id="@+id/group_app"
+        android:title="Definições">
+        <menu>
+            <item
+                android:id="@+id/ver_dicas"
+                android:title="Dicas e truques"
+
+                android:checkable="true"
+
+                >
+            </item>
+            <item
+                android:id="@+id/feedback"
+                android:title="Feedback"
+                android:checkable="true"
+
+
+                >
+
+
+            </item>
+            <item
+                android:id="@+id/Ajuda"
+                android:title="Ajuda"
+                android:checkable="true"
+
+
+                >
+
+
+            </item>
+            <item
+                android:id="@+id/termos_de_uso"
+                android:title="Termos de uso"
+                android:checkable="true"
+
+
+                >
+
+
+            </item>
+
+        </menu>
+
+    </item>
+</menu>

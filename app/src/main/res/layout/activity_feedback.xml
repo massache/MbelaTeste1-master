@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angelo.mbelateste1.FeedbackActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:gravity="left"
+        android:scrollbars="vertical"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:ems="8"
+        android:background="@drawable/edit_rounded"
+        android:hint="  Deixe a sua opinião"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- <EditText
+        android:inputType="textMultiLine"  Multiline input -->
+    android:lines="8" <!-- Total Lines prior display -->
+    android:minLines="6" <!-- Minimum lines -->
+    android:gravity="top|left" <!-- Cursor Position -->
+    android:maxLines="10" <!-- Maximum Lines -->
+    android:layout_height="wrap_content" <!-- Height determined by content -->
+    android:layout_width="match_parent" <!-- Fill entire width -->
+    android:scrollbars="vertical" <!-- Vertical Scroll Bar -->
+    />
+
+
+    <TextView
+        android:id="@+id/feedbackMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="@string/msgfeed"
+
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <ImageButton
+        android:id="@+id/enviarOpiniao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/botao_circular"
+        android:src="@drawable/ic_done_28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackMsg" />
+
+</android.support.constraint.ConstraintLayout>
